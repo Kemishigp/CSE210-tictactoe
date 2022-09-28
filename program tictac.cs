@@ -148,11 +148,10 @@
         }
         else
         {
-            Console.WriteLine("Sorry the row {0} is already marked with {1}", choice, board[choice]);
+            Console.WriteLine("Sorry the row {0} is already marked with {1}", choice, board[choice-1]);
             Console.WriteLine("\n");
             Console.WriteLine("Please wait 2 second board is loading again.....");
             Thread.Sleep(2000);
         }
-                flag = CheckWin();
     }
 }
