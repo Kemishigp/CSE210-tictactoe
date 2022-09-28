@@ -121,6 +121,7 @@
     /// <returns>A 1-based spot number (not a 0-based index)</returns>
     static int GetMoveChoice(string currentPlayer)
     {
+        Console.WriteLine("Pick a number between 1-9 to make a move. ");
         choice = string.Parse(Console.ReadLine());//Taking users choice
         return choice;
     }
